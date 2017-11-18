@@ -1,0 +1,1 @@
+export const LOAD_COURSE_DATA = 'LOAD_COURSE_DATA';
