@@ -1,11 +1,13 @@
 /* Root reducer that import all reducers and combine them into one reducer */
 import { combineReducers } from 'redux';
-import course from './courseReducer';
+import courses from './courseReducer';
+import products from './productReducer';
 
 /* this courses is coming from import which is pointing to courseReducer.js file*/
 
 const rootReducer = combineReducers({
-  course
+  courses,
+  products
 });
 
 export default rootReducer;
